@@ -1,0 +1,60 @@
+.footer {
+  min-height: 60px !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #2e2e2e;
+  color: #d6d8db;
+  padding-top: 15px;
+  margin-top: 35px;
+
+  .our-partners {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin: 30px 0;
+    .partner {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      width: 33%;
+      height: 100px;
+      border-right: 1px solid #ac2925;
+      &:last-child {
+        border-right: none;
+      }
+      .partner-logo-1, .partner-logo-2, .partner-logo-3 {
+        width: 100px;
+        height: 100px;
+        border-radius: 50px;
+        &:hover {
+          cursor: pointer;
+          filter: invert(20%);
+        }
+      }
+      .partner-logo-1 {
+        background: url("../files/icon/che.png") no-repeat;
+        background-size: cover;
+      }
+      .partner-logo-2 {
+        background: url("../files/icon/youngmedia.jpg") no-repeat;
+        background-size: cover;
+      }
+      .partner-logo-3 {
+        background: url("../files/icon/pavlenko.jpg") no-repeat;
+        background-size: cover;
+      }
+    }
+  }
+  .develop {
+    text-align: center;
+    width: 100%;
+    background-color: black;
+    p {
+      font-size: 14px;
+      margin-top: 10px;
+      margin-bottom: 0px;
+    }
+  }
+}

@@ -1,0 +1,67 @@
+@import "_header.scss";
+@import "_site-index.scss";
+@import "_category-index.scss";
+@import "_category-view";
+@import "_category-price";
+@import "_record-form.scss";
+@import "_about-me.scss";
+@import "_contact.scss";
+@import "_footer.scss";
+
+@font-face {
+  font-family: "PacificoRegular";
+  src: url("../fonts/Pacifico/Pacifico-Regular.ttf");
+}
+
+@font-face {
+  font-family: "LobsterRegular";
+  src: url("../fonts/Lobster/Lobster-Regular.ttf");
+}
+
+@font-face {
+  font-family: "CormorantInfant-Regular";
+  src: url("../fonts/Cormorant_Infant/CormorantInfant-Regular.ttf");
+}
+
+body {
+  font-family: 'CormorantInfant-Regular', 'Open Sans', sans-serif;
+  font-size: 16px;
+  padding: 0;
+  background: url(../files/icon/main_fon2.jpg) no-repeat center fixed;
+  background-size: cover;
+
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+}
+
+.link {
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+.flex-row {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+@media (min-width: 768px) {
+  body {
+    font-size: 20px;
+  }
+}

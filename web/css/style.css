@@ -1,0 +1,837 @@
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Open-server3\.5\.0\/OSPanel\/domains\/MaryaNew\/web\/scss\/_header\.scss}line{font-family:\000031}}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #a71d2a; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Open-server3\.5\.0\/OSPanel\/domains\/MaryaNew\/web\/scss\/_header\.scss}line{font-family:\000034}}
+.topmenu {
+  font-family: "LobsterRegular", 'SansSerif', 'Open Sans';
+  -webkit-box-ordinal-group: 2;
+      -ms-flex-order: 1;
+          order: 1; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Open-server3\.5\.0\/OSPanel\/domains\/MaryaNew\/web\/scss\/_header\.scss}line{font-family:\000039}}
+.fixed-box-my {
+  width: 100%; }
+  @media (min-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Open-server3\.5\.0\/OSPanel\/domains\/MaryaNew\/web\/scss\/_header\.scss}line{font-family:\000039}}
+    .fixed-box-my {
+      background-color: transparent;
+      border: none !important; } }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Open-server3\.5\.0\/OSPanel\/domains\/MaryaNew\/web\/scss\/_header\.scss}line{font-family:\0000318}}
+.fixed-div-my {
+  width: 100%;
+  text-align: center; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Open-server3\.5\.0\/OSPanel\/domains\/MaryaNew\/web\/scss\/_header\.scss}line{font-family:\0000323}}
+.fixed-my {
+  position: fixed;
+  z-index: 2;
+  top: 0;
+  background-color: #f8f8f8;
+  border: 1px solid;
+  border-color: #e7e7e7;
+  border-radius: 4px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Open-server3\.5\.0\/OSPanel\/domains\/MaryaNew\/web\/scss\/_header\.scss}line{font-family:\0000333}}
+.navbar-header {
+  border: none !important; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Open-server3\.5\.0\/OSPanel\/domains\/MaryaNew\/web\/scss\/_header\.scss}line{font-family:\0000336}}
+  .navbar-header button {
+    background-color: #e7e7e7; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Open-server3\.5\.0\/OSPanel\/domains\/MaryaNew\/web\/scss\/_header\.scss}line{font-family:\0000341}}
+.active > a {
+  background-color: transparent !important;
+  border: none;
+  color: #a71d2a !important; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Open-server3\.5\.0\/OSPanel\/domains\/MaryaNew\/web\/scss\/_header\.scss}line{font-family:\0000348}}
+.topheader {
+  -webkit-box-ordinal-group: 3;
+      -ms-flex-order: 2;
+          order: 2;
+  font-family: "LobsterRegular", 'SansSerif', 'Open Sans';
+  margin: 10px 0 !important;
+  padding-bottom: 10px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Open-server3\.5\.0\/OSPanel\/domains\/MaryaNew\/web\/scss\/_header\.scss}line{font-family:\0000354}}
+  .topheader .logo {
+    margin-bottom: 20px;
+    margin-top: 20px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Open-server3\.5\.0\/OSPanel\/domains\/MaryaNew\/web\/scss\/_header\.scss}line{font-family:\0000358}}
+    .topheader .logo .logo-img1, .topheader .logo .logo-img {
+      width: 150px;
+      border-radius: 5px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Open-server3\.5\.0\/OSPanel\/domains\/MaryaNew\/web\/scss\/_header\.scss}line{font-family:\0000363}}
+    .topheader .logo .logo-img {
+      -webkit-box-shadow: 9px 13px 8px 0px #000000;
+              box-shadow: 9px 13px 8px 0px #000000; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Open-server3\.5\.0\/OSPanel\/domains\/MaryaNew\/web\/scss\/_header\.scss}line{font-family:\0000367}}
+    .topheader .logo .logo-img1 {
+      position: relative;
+      bottom: 500px;
+      opacity: 0.2;
+      -webkit-animation: LogoMove1 4s 0s forwards ease-in;
+              animation: LogoMove1 4s 0s forwards ease-in; }
+@-webkit-keyframes LogoMove1 {
+  15% {
+    opacity: 0.2;
+    bottom: 0; }
+  20% {
+    opacity: 0.2;
+    bottom: 40px; }
+  25% {
+    opacity: 0.2;
+    bottom: 0; }
+  30% {
+    opacity: 0.2;
+    bottom: 20px; }
+  35% {
+    opacity: 0.2;
+    bottom: 0; }
+  75% {
+    opacity: 1;
+    bottom: 0; }
+  100% {
+    opacity: 1;
+    bottom: 0;
+    -webkit-box-shadow: 9px 13px 8px 0px #000000;
+            box-shadow: 9px 13px 8px 0px #000000; } }
+@keyframes LogoMove1 {
+  15% {
+    opacity: 0.2;
+    bottom: 0; }
+  20% {
+    opacity: 0.2;
+    bottom: 40px; }
+  25% {
+    opacity: 0.2;
+    bottom: 0; }
+  30% {
+    opacity: 0.2;
+    bottom: 20px; }
+  35% {
+    opacity: 0.2;
+    bottom: 0; }
+  75% {
+    opacity: 1;
+    bottom: 0; }
+  100% {
+    opacity: 1;
+    bottom: 0;
+    -webkit-box-shadow: 9px 13px 8px 0px #000000;
+            box-shadow: 9px 13px 8px 0px #000000; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Open-server3\.5\.0\/OSPanel\/domains\/MaryaNew\/web\/scss\/_header\.scss}line{font-family:\00003112}}
+  .topheader .social {
+    min-width: 200px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Open-server3\.5\.0\/OSPanel\/domains\/MaryaNew\/web\/scss\/_header\.scss}line{font-family:\00003115}}
+    .topheader .social span {
+      display: block;
+      position: relative; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Open-server3\.5\.0\/OSPanel\/domains\/MaryaNew\/web\/scss\/_header\.scss}line{font-family:\00003119}}
+      .topheader .social span a {
+        color: darkred; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Open-server3\.5\.0\/OSPanel\/domains\/MaryaNew\/web\/scss\/_header\.scss}line{font-family:\00003123}}
+      .topheader .social span .hint {
+        display: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Open-server3\.5\.0\/OSPanel\/domains\/MaryaNew\/web\/scss\/_header\.scss}line{font-family:\00003127}}
+      .topheader .social span :hover {
+        color: #ff2525; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Open-server3\.5\.0\/OSPanel\/domains\/MaryaNew\/web\/scss\/_header\.scss}line{font-family:\00003130}}
+        .topheader .social span :hover + .hint {
+          display: block;
+          position: absolute;
+          left: 30%;
+          top: 100%;
+          z-index: 1;
+          background: rgba(255, 255, 230, 0.6);
+          font-family: Arial, sans-serif;
+          font-size: 11px;
+          padding: 5px 10px;
+          border: 1px solid #333; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Open-server3\.5\.0\/OSPanel\/domains\/MaryaNew\/web\/scss\/_header\.scss}line{font-family:\00003148}}
+.bott {
+  display: block;
+  font-size: 1.1em;
+  width: 150px;
+  text-decoration: none;
+  text-align: center;
+  font: bold 14px arial;
+  text-transform: uppercase;
+  padding: 10px 15px;
+  margin: 20px auto;
+  color: #ccc;
+  background-color: #1e7e34;
+  background-color: #2b542c;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#2b542c), to(#1e7e34));
+  background-image: linear-gradient(top, #2b542c 0%, #1e7e34 100%);
+  background-image: -o-linear-gradient(top, #2b542c 0%, #1e7e34 100%);
+  border: none;
+  border-radius: 20px;
+  text-shadow: 0px -1px 0px #000;
+  -webkit-box-shadow: 0px 1px 0px #d6d8db, 0px 5px 0px #666666, 0px 6px 6px rgba(0, 0, 0, 0.6);
+          box-shadow: 0px 1px 0px #d6d8db, 0px 5px 0px #666666, 0px 6px 6px rgba(0, 0, 0, 0.6);
+  -webkit-transition: ease .15s all;
+  transition: ease .15s all;
+  -webkit-animation: none;
+  animation: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Open-server3\.5\.0\/OSPanel\/domains\/MaryaNew\/web\/scss\/_header\.scss}line{font-family:\00003180}}
+.bott:hover, a.bott:focus {
+  -webkit-animation: linear 1.2s light infinite;
+  animation: linear 1.2s light infinite; }
+
+@-webkit-keyframes light {
+  0% {
+    color: #ddd;
+    text-shadow: 0px -1px 0px #000; }
+  50% {
+    color: #fff;
+    text-shadow: 0px -1px 0px #444, 0px 0px 5px #ffd, 0px 0px 8px #fff; }
+  100% {
+    color: #ddd;
+    text-shadow: 0px -1px 0px #000; } }
+@keyframes light {
+  0% {
+    color: #ddd;
+    text-shadow: 0px -1px 0px #000; }
+  50% {
+    color: #fff;
+    text-shadow: 0px -1px 0px #444, 0px 0px 5px #ffd, 0px 0px 8px #fff; }
+  100% {
+    color: #ddd;
+    text-shadow: 0px -1px 0px #000; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Open-server3\.5\.0\/OSPanel\/domains\/MaryaNew\/web\/scss\/_header\.scss}line{font-family:\00003247}}
+.bott:active {
+  color: #fff;
+  text-shadow: 0px -1px 0px #444, 0px 0px 5px #ffd, 0px 0px 8px #fff;
+  -webkit-box-shadow: 0px 1px 0px #666, 0px 2px 0px #444, 0px 2px 2px rgba(0, 0, 0, 0.9);
+          box-shadow: 0px 1px 0px #666, 0px 2px 0px #444, 0px 2px 2px rgba(0, 0, 0, 0.9);
+  -webkit-transform: translateY(3px);
+  transform: translateY(3px);
+  -webkit-animation: none;
+  animation: none; }
+
+@media (min-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Open-server3\.5\.0\/OSPanel\/domains\/MaryaNew\/web\/scss\/_header\.scss}line{font-family:\00003262}}
+  .topmenu {
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+    /*.navbar-default .navbar-nav > li > a {
+      //color: #777;
+      color: white;
+    };*/ }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Open-server3\.5\.0\/OSPanel\/domains\/MaryaNew\/web\/scss\/_header\.scss}line{font-family:\00003269}}
+  .topheader {
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Open-server3\.5\.0\/OSPanel\/domains\/MaryaNew\/web\/scss\/_header\.scss}line{font-family:\00003273}}
+  .navbar-nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 100%;
+    text-align: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Open-server3\.5\.0\/OSPanel\/domains\/MaryaNew\/web\/scss\/_header\.scss}line{font-family:\00003279}}
+    .navbar-nav li {
+      min-width: 130px; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Open-server3\.5\.0\/OSPanel\/domains\/MaryaNew\/web\/scss\/_site-index\.scss}line{font-family:\000031}}
+.site-index {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Open-server3\.5\.0\/OSPanel\/domains\/MaryaNew\/web\/scss\/_site-index\.scss}line{font-family:\0000310}}
+  .site-index .index-center {
+    width: 100%;
+    text-align: center;
+    overflow: hidden;
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Open-server3\.5\.0\/OSPanel\/domains\/MaryaNew\/web\/scss\/_site-index\.scss}line{font-family:\0000316}}
+    .site-index .index-center img {
+      width: 300px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Open-server3\.5\.0\/OSPanel\/domains\/MaryaNew\/web\/scss\/_site-index\.scss}line{font-family:\0000321}}
+  .site-index .index-left, .site-index .index-right {
+    width: 50%;
+    padding: 50px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Open-server3\.5\.0\/OSPanel\/domains\/MaryaNew\/web\/scss\/_site-index\.scss}line{font-family:\0000330}}
+    .site-index .index-left img, .site-index .index-right img {
+      width: 150px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Open-server3\.5\.0\/OSPanel\/domains\/MaryaNew\/web\/scss\/_site-index\.scss}line{font-family:\0000335}}
+  .site-index .image {
+    padding: 20px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Open-server3\.5\.0\/OSPanel\/domains\/MaryaNew\/web\/scss\/_site-index\.scss}line{font-family:\0000339}}
+  .site-index .rotate30 {
+    -webkit-transform: rotate(30deg);
+            transform: rotate(30deg); }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Open-server3\.5\.0\/OSPanel\/domains\/MaryaNew\/web\/scss\/_site-index\.scss}line{font-family:\0000343}}
+  .site-index .rotate_30 {
+    -webkit-transform: rotate(-30deg);
+            transform: rotate(-30deg); }
+
+@media (min-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Open-server3\.5\.0\/OSPanel\/domains\/MaryaNew\/web\/scss\/_site-index\.scss}line{font-family:\0000351}}
+  .site-index .index-center {
+    width: 30%;
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Open-server3\.5\.0\/OSPanel\/domains\/MaryaNew\/web\/scss\/_site-index\.scss}line{font-family:\0000356}}
+  .site-index .index-left {
+    width: 30%;
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Open-server3\.5\.0\/OSPanel\/domains\/MaryaNew\/web\/scss\/_site-index\.scss}line{font-family:\0000361}}
+  .site-index .index-right {
+    width: 30%;
+    -webkit-box-ordinal-group: 4;
+        -ms-flex-order: 3;
+            order: 3; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Open-server3\.5\.0\/OSPanel\/domains\/MaryaNew\/web\/scss\/_category-index\.scss}line{font-family:\000032}}
+.cards-list {
+  z-index: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  line-height: 1.5;
+  font-family: 'Open Sans', sans-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Open-server3\.5\.0\/OSPanel\/domains\/MaryaNew\/web\/scss\/_category-index\.scss}line{font-family:\0000311}}
+  .cards-list .card {
+    position: relative;
+    background: #a71d2a;
+    width: 300px;
+    padding: 2rem;
+    color: #aaa;
+    overflow: hidden;
+    margin: 30px auto;
+    border-radius: 40px;
+    -webkit-box-shadow: 5px 5px 30px 7px rgba(0, 0, 0, 0.25), -5px -5px 30px 7px rgba(0, 0, 0, 0.22);
+            box-shadow: 5px 5px 30px 7px rgba(0, 0, 0, 0.25), -5px -5px 30px 7px rgba(0, 0, 0, 0.22);
+    cursor: pointer;
+    -webkit-transition: 0.4s;
+    transition: 0.4s; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Open-server3\.5\.0\/OSPanel\/domains\/MaryaNew\/web\/scss\/_category-index\.scss}line{font-family:\0000312}}
+    .cards-list .card img {
+      max-width: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Open-server3\.5\.0\/OSPanel\/domains\/MaryaNew\/web\/scss\/_category-index\.scss}line{font-family:\0000326}}
+    .cards-list .card:hover {
+      -webkit-transform: scale(0.9, 0.9);
+              transform: scale(0.9, 0.9);
+      -webkit-box-shadow: 5px 5px 30px 15px rgba(0, 0, 0, 0.25), -5px -5px 30px 15px rgba(0, 0, 0, 0.22);
+              box-shadow: 5px 5px 30px 15px rgba(0, 0, 0, 0.25), -5px -5px 30px 15px rgba(0, 0, 0, 0.22); }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Open-server3\.5\.0\/OSPanel\/domains\/MaryaNew\/web\/scss\/_category-index\.scss}line{font-family:\0000332}}
+    .cards-list .card__image-container {
+      margin: -2rem -2rem 1rem -2rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Open-server3\.5\.0\/OSPanel\/domains\/MaryaNew\/web\/scss\/_category-index\.scss}line{font-family:\0000336}}
+    .cards-list .card__line {
+      opacity: 0;
+      -webkit-animation: LineFadeIn .8s .8s forwards ease-in;
+              animation: LineFadeIn .8s .8s forwards ease-in; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Open-server3\.5\.0\/OSPanel\/domains\/MaryaNew\/web\/scss\/_category-index\.scss}line{font-family:\0000341}}
+    .cards-list .card__image {
+      opacity: 0;
+      -webkit-animation: ImageFadeIn .8s 1.4s forwards;
+              animation: ImageFadeIn .8s 1.4s forwards; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Open-server3\.5\.0\/OSPanel\/domains\/MaryaNew\/web\/scss\/_category-index\.scss}line{font-family:\0000346}}
+    .cards-list .card__title {
+      color: white;
+      margin-top: 0;
+      font-weight: 200;
+      letter-spacing: 0.01em; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Open-server3\.5\.0\/OSPanel\/domains\/MaryaNew\/web\/scss\/_category-index\.scss}line{font-family:\0000353}}
+    .cards-list .card__content {
+      text-transform: uppercase;
+      text-align: center;
+      margin-top: -1rem;
+      opacity: 0;
+      -webkit-animation: ContentFadeIn .8s 1.6s forwards;
+              animation: ContentFadeIn .8s 1.6s forwards; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Open-server3\.5\.0\/OSPanel\/domains\/MaryaNew\/web\/scss\/_category-index\.scss}line{font-family:\0000361}}
+    .cards-list .card__svg {
+      position: absolute;
+      left: 0;
+      top: 215px; }
+@-webkit-keyframes LineFadeIn {
+  0% {
+    opacity: 0;
+    d: path("M 0 300 Q 0 300 0 300 Q 0 300 0 300 C 0 300 0 300 0 300 Q 0 300 0 300 ");
+    stroke: #fff; }
+  50% {
+    opacity: 1;
+    d: path("M 0 300 Q 50 300 100 300 Q 250 300 350 300 C 350 300 500 300 650 300 Q 750 300 800 300");
+    stroke: orangered; }
+  100% {
+    opacity: 1;
+    d: path("M -2 100 Q 50 200 100 250 Q 250 400 350 300 C 400 250 550 150 650 300 Q 750 450 802 400");
+    stroke: whitesmoke; } }
+@keyframes LineFadeIn {
+  0% {
+    opacity: 0;
+    d: path("M 0 300 Q 0 300 0 300 Q 0 300 0 300 C 0 300 0 300 0 300 Q 0 300 0 300 ");
+    stroke: #fff; }
+  50% {
+    opacity: 1;
+    d: path("M 0 300 Q 50 300 100 300 Q 250 300 350 300 C 350 300 500 300 650 300 Q 750 300 800 300");
+    stroke: orangered; }
+  100% {
+    opacity: 1;
+    d: path("M -2 100 Q 50 200 100 250 Q 250 400 350 300 C 400 250 550 150 650 300 Q 750 450 802 400");
+    stroke: whitesmoke; } }
+@-webkit-keyframes ContentFadeIn {
+  0% {
+    -webkit-transform: translateY(-1rem);
+            transform: translateY(-1rem);
+    opacity: 0; }
+  100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+    opacity: 1; } }
+@keyframes ContentFadeIn {
+  0% {
+    -webkit-transform: translateY(-1rem);
+            transform: translateY(-1rem);
+    opacity: 0; }
+  100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+    opacity: 1; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Open-server3\.5\.0\/OSPanel\/domains\/MaryaNew\/web\/scss\/_category-view\.scss}line{font-family:\000031}}
+.category-view-item {
+  overflow: hidden;
+  text-align: center;
+  margin-top: 20px; }
+
+@media (min-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Open-server3\.5\.0\/OSPanel\/domains\/MaryaNew\/web\/scss\/_category-view\.scss}line{font-family:\0000310}}
+  .category-view-item a img {
+    width: 300px; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Open-server3\.5\.0\/OSPanel\/domains\/MaryaNew\/web\/scss\/_category-price\.scss}line{font-family:\000031}}
+.table-price {
+  border-spacing: 0 10px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Open-server3\.5\.0\/OSPanel\/domains\/MaryaNew\/web\/scss\/_category-price\.scss}line{font-family:\000035}}
+  .table-price td:nth-child(3) {
+    display: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Open-server3\.5\.0\/OSPanel\/domains\/MaryaNew\/web\/scss\/_category-price\.scss}line{font-family:\000038}}
+  .table-price td {
+    vertical-align: middle !important;
+    text-align: center;
+    padding: 10px;
+    font-size: 14px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Open-server3\.5\.0\/OSPanel\/domains\/MaryaNew\/web\/scss\/_category-price\.scss}line{font-family:\0000314}}
+    .table-price td a img {
+      width: 50px;
+      border-radius: 10px; }
+
+@media (min-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Open-server3\.5\.0\/OSPanel\/domains\/MaryaNew\/web\/scss\/_category-price\.scss}line{font-family:\0000324}}
+  .table-price td:nth-child(3) {
+    display: table-cell; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Open-server3\.5\.0\/OSPanel\/domains\/MaryaNew\/web\/scss\/_category-price\.scss}line{font-family:\0000327}}
+  .table-price td {
+    padding: 20px !important;
+    font-size: 18px;
+    border-top: 2px solid #56433D;
+    border-bottom: 2px solid #56433D;
+    border-right: 2px solid #56433D; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Open-server3\.5\.0\/OSPanel\/domains\/MaryaNew\/web\/scss\/_category-price\.scss}line{font-family:\0000333}}
+    .table-price td a img {
+      width: 100px;
+      -webkit-transition: 0.4s;
+      transition: 0.4s; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Open-server3\.5\.0\/OSPanel\/domains\/MaryaNew\/web\/scss\/_category-price\.scss}line{font-family:\0000337}}
+      .table-price td a img:hover {
+        -webkit-transform: scale(1.1, 1.1);
+                transform: scale(1.1, 1.1); } }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Open-server3\.5\.0\/OSPanel\/domains\/MaryaNew\/web\/scss\/_record-form\.scss}line{font-family:\000031}}
+.modal-form {
+  height: 70vh;
+  width: 70%;
+  padding: 30px 0; }
+
+@media (min-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Open-server3\.5\.0\/OSPanel\/domains\/MaryaNew\/web\/scss\/_record-form\.scss}line{font-family:\000038}}
+  .modal-dialog {
+    width: 600px; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Open-server3\.5\.0\/OSPanel\/domains\/MaryaNew\/web\/scss\/_record-form\.scss}line{font-family:\0000312}}
+.record-form {
+  margin-top: 50px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Open-server3\.5\.0\/OSPanel\/domains\/MaryaNew\/web\/scss\/_record-form\.scss}line{font-family:\0000316}}
+.modal-view {
+  margin-top: 50px;
+  text-align: center; }
+
+/*.stylist-image-area:not(:first-child) {
+  margin-top: 50px;
+}*/
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Open-server3\.5\.0\/OSPanel\/domains\/MaryaNew\/web\/scss\/_about-me\.scss}line{font-family:\000035}}
+.stylist-image-area {
+  margin: 20px;
+  width: 300px;
+  text-align: center; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Open-server3\.5\.0\/OSPanel\/domains\/MaryaNew\/web\/scss\/_about-me\.scss}line{font-family:\0000311}}
+.stylist-img-wrapper {
+  position: relative;
+  overflow: hidden;
+  border-radius: 5px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Open-server3\.5\.0\/OSPanel\/domains\/MaryaNew\/web\/scss\/_about-me\.scss}line{font-family:\0000319}}
+.stylist-img-wrapper img {
+  width: 300px;
+  -webkit-animation: grayImg 3s 0s forwards ease-in;
+          animation: grayImg 3s 0s forwards ease-in;
+  -webkit-filter: grayscale(100%);
+          filter: grayscale(100%); }
+
+@-webkit-keyframes grayImg {
+  0% {
+    -webkit-filter: grayscale(100%);
+            filter: grayscale(100%); }
+  100% {
+    -webkit-filter: grayscale(0%);
+            filter: grayscale(0%); } }
+
+@keyframes grayImg {
+  0% {
+    -webkit-filter: grayscale(100%);
+            filter: grayscale(100%); }
+  100% {
+    -webkit-filter: grayscale(0%);
+            filter: grayscale(0%); } }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Open-server3\.5\.0\/OSPanel\/domains\/MaryaNew\/web\/scss\/_about-me\.scss}line{font-family:\0000334}}
+.stylist-img-wrapper h2 {
+  cursor: context-menu;
+  background: firebrick;
+  font-family: 'LobsterRegular', 'SansSerif', 'Open Sans';
+  color: #0a0a0a;
+  text-shadow: 1px 1px 1px white;
+  text-align: center;
+  margin: 0;
+  padding: 10px 0;
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  -webkit-animation: TextTransform 1s 0s forwards ease-in;
+          animation: TextTransform 1s 0s forwards ease-in;
+  -webkit-transform-origin: right;
+          transform-origin: right; }
+
+@-webkit-keyframes TextTransform {
+  0% {
+    -webkit-transform: perspective(400px) rotateY(90deg);
+            transform: perspective(400px) rotateY(90deg); }
+  100% {
+    -webkit-transform: perspective(400px) rotateY(0deg);
+            transform: perspective(400px) rotateY(0deg); } }
+
+@keyframes TextTransform {
+  0% {
+    -webkit-transform: perspective(400px) rotateY(90deg);
+            transform: perspective(400px) rotateY(90deg); }
+  100% {
+    -webkit-transform: perspective(400px) rotateY(0deg);
+            transform: perspective(400px) rotateY(0deg); } }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Open-server3\.5\.0\/OSPanel\/domains\/MaryaNew\/web\/scss\/_about-me\.scss}line{font-family:\0000361}}
+.stylist-img-wrapper ul {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  background: rgba(255, 255, 255, 0); }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Open-server3\.5\.0\/OSPanel\/domains\/MaryaNew\/web\/scss\/_about-me\.scss}line{font-family:\0000371}}
+.stylist-img-wrapper ul li {
+  background: firebrick;
+  height: 35px;
+  width: 35px;
+  -webkit-transition: 1s;
+  transition: 1s;
+  line-height: 35px;
+  font-size: 0.7em;
+  -webkit-transform: perspective(800px) rotateY(90deg);
+          transform: perspective(800px) rotateY(90deg);
+  -webkit-transform-origin: left;
+          transform-origin: left; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Open-server3\.5\.0\/OSPanel\/domains\/MaryaNew\/web\/scss\/_about-me\.scss}line{font-family:\0000383}}
+  .stylist-img-wrapper ul li:nth-child(1) {
+    -webkit-animation: SocialImg 1s 0s forwards ease-in;
+            animation: SocialImg 1s 0s forwards ease-in; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Open-server3\.5\.0\/OSPanel\/domains\/MaryaNew\/web\/scss\/_about-me\.scss}line{font-family:\0000387}}
+  .stylist-img-wrapper ul li:nth-child(2) {
+    -webkit-animation: SocialImg 1s 0.5s forwards ease-in;
+            animation: SocialImg 1s 0.5s forwards ease-in; }
+
+@-webkit-keyframes SocialImg {
+  0% {
+    -webkit-transform: perspective(800px) rotateY(90deg);
+            transform: perspective(800px) rotateY(90deg); }
+  100% {
+    -webkit-transform: perspective(800px) rotateY(0deg);
+            transform: perspective(800px) rotateY(0deg); } }
+
+@keyframes SocialImg {
+  0% {
+    -webkit-transform: perspective(800px) rotateY(90deg);
+            transform: perspective(800px) rotateY(90deg); }
+  100% {
+    -webkit-transform: perspective(800px) rotateY(0deg);
+            transform: perspective(800px) rotateY(0deg); } }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Open-server3\.5\.0\/OSPanel\/domains\/MaryaNew\/web\/scss\/_about-me\.scss}line{font-family:\00003102}}
+.stylist-img-wrapper ul li a svg {
+  color: #0a0a0a;
+  background: rgba(255, 255, 255, 0);
+  -webkit-transition: 1s;
+  transition: 1s; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Open-server3\.5\.0\/OSPanel\/domains\/MaryaNew\/web\/scss\/_about-me\.scss}line{font-family:\00003109}}
+.stylist-img-wrapper ul li:hover {
+  background-color: #320909; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Open-server3\.5\.0\/OSPanel\/domains\/MaryaNew\/web\/scss\/_about-me\.scss}line{font-family:\00003112}}
+  .stylist-img-wrapper ul li:hover a svg {
+    color: #d6d6d6;
+    background: rgba(255, 255, 255, 0); }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Open-server3\.5\.0\/OSPanel\/domains\/MaryaNew\/web\/scss\/_about-me\.scss}line{font-family:\00003119}}
+.stylist-more {
+  margin-top: 20px;
+  text-align: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Open-server3\.5\.0\/OSPanel\/domains\/MaryaNew\/web\/scss\/_about-me\.scss}line{font-family:\00003123}}
+  .stylist-more a {
+    font-family: 'LobsterRegular', 'Open Sans', 'SansSerif';
+    text-shadow: 1px 1px 1px white;
+    font-size: 1.2em;
+    line-height: 2em;
+    background-color: firebrick;
+    border: none;
+    color: #0a0a0a;
+    -webkit-transition: 1s;
+    transition: 1s; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Open-server3\.5\.0\/OSPanel\/domains\/MaryaNew\/web\/scss\/_about-me\.scss}line{font-family:\00003134}}
+  .stylist-more a:hover {
+    background-color: #320909;
+    color: #d6d6d6;
+    text-shadow: 3px 3px 3px black; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Open-server3\.5\.0\/OSPanel\/domains\/MaryaNew\/web\/scss\/_about-me\.scss}line{font-family:\00003141}}
+.stylist-description {
+  margin: 20px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Open-server3\.5\.0\/OSPanel\/domains\/MaryaNew\/web\/scss\/_contact\.scss}line{font-family:\000032}}
+.site-contact .bott {
+  color: #0b3e6f;
+  color: #0a73bb;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#0b3e6f), to(#0a73bb));
+  background-image: linear-gradient(top, #0b3e6f 0%, #0a73bb 100%);
+  background-image: -o-linear-gradient(top, #0b3e6f 0%, #0a73bb 100%);
+  color: #d6d8db; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Open-server3\.5\.0\/OSPanel\/domains\/MaryaNew\/web\/scss\/_contact\.scss}line{font-family:\0000314}}
+.map-img {
+  width: 150px; }
+
+@media (min-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Open-server3\.5\.0\/OSPanel\/domains\/MaryaNew\/web\/scss\/_contact\.scss}line{font-family:\0000322}}
+  .map-img {
+    width: 300px; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Open-server3\.5\.0\/OSPanel\/domains\/MaryaNew\/web\/scss\/_footer\.scss}line{font-family:\000031}}
+.footer {
+  min-height: 60px !important;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #2e2e2e;
+  color: #d6d8db;
+  padding-top: 15px;
+  margin-top: 35px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Open-server3\.5\.0\/OSPanel\/domains\/MaryaNew\/web\/scss\/_footer\.scss}line{font-family:\0000312}}
+  .footer .our-partners {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    margin: 30px 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Open-server3\.5\.0\/OSPanel\/domains\/MaryaNew\/web\/scss\/_footer\.scss}line{font-family:\0000317}}
+    .footer .our-partners .partner {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: row;
+              flex-direction: row;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      width: 33%;
+      height: 100px;
+      border-right: 1px solid #ac2925; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Open-server3\.5\.0\/OSPanel\/domains\/MaryaNew\/web\/scss\/_footer\.scss}line{font-family:\0000324}}
+      .footer .our-partners .partner:last-child {
+        border-right: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Open-server3\.5\.0\/OSPanel\/domains\/MaryaNew\/web\/scss\/_footer\.scss}line{font-family:\0000327}}
+      .footer .our-partners .partner .partner-logo-1, .footer .our-partners .partner .partner-logo-2, .footer .our-partners .partner .partner-logo-3 {
+        width: 100px;
+        height: 100px;
+        border-radius: 50px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Open-server3\.5\.0\/OSPanel\/domains\/MaryaNew\/web\/scss\/_footer\.scss}line{font-family:\0000331}}
+        .footer .our-partners .partner .partner-logo-1:hover, .footer .our-partners .partner .partner-logo-2:hover, .footer .our-partners .partner .partner-logo-3:hover {
+          cursor: pointer;
+          -webkit-filter: invert(20%);
+                  filter: invert(20%); }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Open-server3\.5\.0\/OSPanel\/domains\/MaryaNew\/web\/scss\/_footer\.scss}line{font-family:\0000336}}
+      .footer .our-partners .partner .partner-logo-1 {
+        background: url("../files/icon/che.png") no-repeat;
+        background-size: cover; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Open-server3\.5\.0\/OSPanel\/domains\/MaryaNew\/web\/scss\/_footer\.scss}line{font-family:\0000340}}
+      .footer .our-partners .partner .partner-logo-2 {
+        background: url("../files/icon/youngmedia.jpg") no-repeat;
+        background-size: cover; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Open-server3\.5\.0\/OSPanel\/domains\/MaryaNew\/web\/scss\/_footer\.scss}line{font-family:\0000344}}
+      .footer .our-partners .partner .partner-logo-3 {
+        background: url("../files/icon/pavlenko.jpg") no-repeat;
+        background-size: cover; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Open-server3\.5\.0\/OSPanel\/domains\/MaryaNew\/web\/scss\/_footer\.scss}line{font-family:\0000350}}
+  .footer .develop {
+    text-align: center;
+    width: 100%;
+    background-color: black; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Open-server3\.5\.0\/OSPanel\/domains\/MaryaNew\/web\/scss\/_footer\.scss}line{font-family:\0000354}}
+    .footer .develop p {
+      font-size: 14px;
+      margin-top: 10px;
+      margin-bottom: 0px; }
+
+@font-face {
+  font-family: "PacificoRegular";
+  src: url("../fonts/Pacifico/Pacifico-Regular.ttf"); }
+@font-face {
+  font-family: "LobsterRegular";
+  src: url("../fonts/Lobster/Lobster-Regular.ttf"); }
+@font-face {
+  font-family: "CormorantInfant-Regular";
+  src: url("../fonts/Cormorant_Infant/CormorantInfant-Regular.ttf"); }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Open-server3\.5\.0\/OSPanel\/domains\/MaryaNew\/web\/scss\/style\.scss}line{font-family:\0000326}}
+body {
+  font-family: 'CormorantInfant-Regular', 'Open Sans', sans-serif;
+  font-size: 16px;
+  padding: 0;
+  background: url(../files/icon/main_fon2.jpg) no-repeat center fixed;
+  background-size: cover; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Open-server3\.5\.0\/OSPanel\/domains\/MaryaNew\/web\/scss\/style\.scss}line{font-family:\0000335}}
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Open-server3\.5\.0\/OSPanel\/domains\/MaryaNew\/web\/scss\/style\.scss}line{font-family:\0000340}}
+.link {
+  text-decoration: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Open-server3\.5\.0\/OSPanel\/domains\/MaryaNew\/web\/scss\/style\.scss}line{font-family:\0000343}}
+  .link:hover {
+    text-decoration: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Open-server3\.5\.0\/OSPanel\/domains\/MaryaNew\/web\/scss\/style\.scss}line{font-family:\0000348}}
+.flex-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Open-server3\.5\.0\/OSPanel\/domains\/MaryaNew\/web\/scss\/style\.scss}line{font-family:\0000356}}
+.flex-column {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+
+@media (min-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Open-server3\.5\.0\/OSPanel\/domains\/MaryaNew\/web\/scss\/style\.scss}line{font-family:\0000364}}
+  body {
+    font-size: 20px; } }
+
+/*# sourceMappingURL=style.css.map */

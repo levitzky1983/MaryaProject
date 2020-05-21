@@ -1,0 +1,19 @@
+.modal-form {
+  height: 70vh;
+  width: 70%;
+  padding: 30px 0;
+
+}
+@media (min-width: 768px) {
+  .modal-dialog {
+     width: 600px;
+  }
+}
+.record-form {
+  margin-top: 50px;
+
+}
+.modal-view{
+  margin-top: 50px;
+  text-align: center;
+}

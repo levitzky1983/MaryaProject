@@ -1,0 +1,26 @@
+.site-contact {
+  .bott {
+    color: #0b3e6f;
+    color: #0a73bb;
+    background-image: linear-gradient(top, #0b3e6f 0%, #0a73bb 100%);
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #0b3e6f), color-stop(1, #0a73bb));
+    background-image: -moz-linear-gradient(top, #0b3e6f 0%, #0a73bb 100%);
+    background-image: -o-linear-gradient(top, #0b3e6f 0%, #0a73bb 100%);
+    color: #d6d8db;
+  }
+}
+
+.map {
+  &-img {
+    width: 150px;
+  }
+
+}
+
+@media (min-width: 768px) {
+  .map {
+    &-img {
+      width: 300px;
+    }
+  }
+}

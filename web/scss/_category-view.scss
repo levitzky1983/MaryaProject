@@ -1,0 +1,14 @@
+.category-view-item {
+  overflow: hidden;
+  //box-sizing: border-box;
+  text-align: center;
+  margin-top: 20px;
+}
+
+@media (min-width: 768px){
+  .category-view-item{
+    a img{
+      width: 300px;
+    }
+  }
+}
