@@ -19,7 +19,7 @@ class CategoryComponents extends BaseComponent
         $transaction = \Yii::$app->db->beginTransaction();
         try {
             if ($category->file) {
-                $category->preview = \Yii::$app->filesaver->saveFiles($category->file, 300, 400);
+                $category->preview = \Yii::$app->filesaver->saveFiles($category->file);
                 $category->file = '';
                 if (!$category->preview) {
                     $category->addError('create', 'Ошибка сохранения файла');

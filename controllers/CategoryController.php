@@ -22,9 +22,8 @@ class CategoryController extends BaseController
 
             'statistics' => [
                 'class' => \Klisl\Statistics\AddStatistics::class,
-                'actions' => ['index', 'view','price','rent','rentView'],
+                'actions' => ['index', 'view', 'price', 'rent', 'rentView'],
             ],
-            ['class'=>PageCache::class,'duration' => 60]
         ];
     }
 
@@ -35,7 +34,7 @@ class CategoryController extends BaseController
 
     public function actionIndex()
     {
-        $model = CategoryActivities::find()->andWhere(['addCategory' => true])->orderBy('position')->all();
+        $model = CategoryActivities::find()->andWhere(['addCategory' => true])->orderBy('position')->cache(60)->all();
         return $this->render('index', ['model' => $model]);
     }
 
@@ -43,8 +42,9 @@ class CategoryController extends BaseController
     {
         $id = \Yii::$app->request->get('category_id');
         $model = Images::find()
-            ->leftJoin('activities', 'images.activity_id=activities.id')
-            ->andWhere(['activities.category_id' => $id])->all();
+            //->leftJoin('activities', 'images.activity_id=activities.id')
+            ->joinWith('activity')
+            ->andWhere(['category_id' => $id])->cache(60)->all();
         return $this->render('view', ['model' => $model]);
     }
 
@@ -81,9 +81,9 @@ class CategoryController extends BaseController
         $id = \Yii::$app->request->get('category_id');
         $model = CategoryActivities::findOne($id);
         $images = Images::find()
-            ->leftJoin('activities', 'images.activity_id=activities.id')
+            ->joinWith('activity')
             ->leftJoin('category_activities', 'activities.category_id=category_activities.id')
-            ->andWhere(['category_activities.title' => 'Студия'])->all();
+            ->andWhere(['category_activities.title' => 'Студия'])->cache(60)->all();
         return $this->render('view-rent', ['model' => $model, 'images' => $images]);
     }
 }

@@ -19,17 +19,20 @@ class StylistController extends BaseController
                 'class' => \Klisl\Statistics\AddStatistics::class,
                 'actions' => ['portfolio'],
             ],
-            ['class'=>PageCache::class,'duration' => 300]
+            ['class' => PageCache::class, 'duration' => 300]
         ];
     }
 
-    public function actionPortfolio($id){
-        $model =Images::find()
-            ->andWhere(['images.portfolio'=>true])
-            ->leftJoin('activities','images.activity_id=activities.id')
-            ->andWhere(['activities.stylist_id'=>$id])
+    public function actionPortfolio($id)
+    {
+        $model = Images::find()
+            ->andWhere(['images.portfolio' => true])
+            //->leftJoin('activities','images.activity_id=activities.id')
+            ->joinWith('activity')
+            ->andWhere(['activities.stylist_id' => $id])
+            ->cache(60)
             ->all();
-        return $this->render('portfolio',['model'=>$model]);
+        return $this->render('portfolio', ['model' => $model]);
     }
 
 }

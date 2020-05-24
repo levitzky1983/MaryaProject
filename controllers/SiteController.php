@@ -42,9 +42,9 @@ class SiteController extends Controller
             ],
             'statistics' => [
                 'class' => \Klisl\Statistics\AddStatistics::class,
-                'actions' => ['index', 'contact','about'],
+                'actions' => ['index', 'contact', 'about'],
             ],
-            ['class'=>PageCache::class,'duration' => 60]
+            ['class' => PageCache::class, 'duration' => 60]
         ];
     }
 
@@ -74,10 +74,12 @@ class SiteController extends Controller
     public function actionIndex()
     {
         $left = CategoryActivities::find()->select('preview')->andWhere('`id` in (1,4,6)')->column();
-        $center = Stylists::find()->andWhere(['id'=>1])->one();
+        $center = Stylists::find()->andWhere(['id' => 1])->one();
         $center = $center->image;
-        $right = Images::find()->select('images.name')->leftJoin('activities','images.activity_id=activities.id')->andWhere(['activities.title'=>'Студия'])->column();
-        return $this->render('index',['left'=>$left,'center'=>$center,'right'=>$right]);
+        $right = Images::find()->select('images.name')
+            ->leftJoin('activities', 'images.activity_id=activities.id')
+            ->andWhere(['activities.title' => 'Студия'])->column();
+        return $this->render('index', ['left' => $left, 'center' => $center, 'right' => $right]);
     }
 
     /**
@@ -137,7 +139,7 @@ class SiteController extends Controller
      */
     public function actionAbout()
     {
-        $model = Stylists::find()->andWhere(['last_name'=>'Левицкая'])->one();
-        return $this->render('about',['model'=>$model]);
+        $model = Stylists::find()->andWhere(['last_name' => 'Левицкая'])->one();
+        return $this->render('about', ['model' => $model]);
     }
 }

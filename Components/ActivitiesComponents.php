@@ -49,7 +49,7 @@ class ActivitiesComponents extends BaseComponent
             $image = new Images();
             $image->activity_id = $activity->id;
             //$category = CategoryActivities::find()->andWhere(['id'=>$activity->category_id])->one()->title;
-            $image->name = \Yii::$app->filesaver->saveFiles($item, 300, 400);
+            $image->name = \Yii::$app->filesaver->saveFiles($item);
             if (!$image->name) {
                 $image->addError('name', 'Ошибка сохранения файла');
                 return false;

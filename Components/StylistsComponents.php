@@ -45,7 +45,7 @@ class StylistsComponents extends BaseComponent
 
     private function uploadFilesStylist(Stylists $stylist)
     {
-        $stylist->image = \Yii::$app->filesaver->saveFiles($stylist->file, 300, 400);
+        $stylist->image = \Yii::$app->filesaver->saveFiles($stylist->file);
         if (!$stylist->image) {
             $stylist->addError('name', 'Ошибка сохранения файла');
             return false;

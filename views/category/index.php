@@ -18,6 +18,6 @@ $this->registerMetaTag(
 ?>
 <div class="row">
     <? foreach ($model as $key => $item): ?>
-        <?= Html::a(CardCategoryWidget::widget(['model' => $item]), [Yii::getAlias('@web/category/view/'), 'category_id' => $item->id]); ?>
+        <?= Html::a(CardCategoryWidget::widget(['model' => $item]), [Url::to(['category/view','category_id' => $item->id])]); ?>
     <? endforeach; ?>
 </div>
